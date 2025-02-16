@@ -12,6 +12,6 @@ def print_fibonacci(length):
     while len(series) < length:
         series.append(series[-1] + series[-2])
 
-    return series
+        print(series)
 
-print(print_fibonacci(10))
+print(print_fibonacci(9))
